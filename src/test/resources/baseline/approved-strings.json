@@ -9,8 +9,8 @@
     "",
     "Regenerate with scripts/approve-strings.py, only after reading the diff."
   ],
-  "approved_schema": 11,
-  "lang_sha256": "12f7e844e9718320848fed5137669b6d58e5dd13d21a412ac6ca2a1ad1967469",
+  "approved_schema": 12,
+  "lang_sha256": "86926ecead31f6aa964c31f2678d5397665fd56d712146a95f20b47a020972bc",
   "counts": {
     "discord_strings": 49,
     "chat_strings": 30,
@@ -87,16 +87,16 @@
     "chat.reload-config-ahead-fix": "<red>Update the plugin, or run <white>/discordlogger regen</white> to start fresh.</red>",
     "chat.reload-config-upgraded": "<green>config.yml upgraded from schema v{from} to v{to} (previous file saved as config.old.yml).</green>",
     "chat.reload-no-webhook": "<red>Config reloaded, but webhook.url is missing or invalid.</red>",
-    "chat.reload-no-webhook-hint": "<red>Set a valid Discord webhook URL and try again.</red>",
+    "chat.reload-no-webhook-hint": "<red>Set a valid Discord or Fluxer webhook URL and try again.</red>",
     "chat.reload-ok": "<green>DiscordLogger configuration reloaded ({ms} ms).</green>",
     "chat.unknown-subcommand": "<red>Unknown subcommand: {input}</red>",
-    "chat.webhook-expected": "<gray>Expected: https://discord.com/api/webhooks/<id>/<token></gray>",
-    "chat.webhook-invalid": "<red>That does not look like a Discord webhook URL.</red>",
+    "chat.webhook-expected": "<gray>Expected: a Discord webhook such as https://discord.com/api/webhooks/<id>/<token>, or a Fluxer-compatible URL.</gray>",
+    "chat.webhook-invalid": "<red>That does not look like a Discord or Fluxer webhook URL.</red>",
     "chat.webhook-private": "<gray>Anyone who sees the URL can post to that channel, so avoid typing it on a shared screen. It is never shown back to you.</gray>",
     "chat.webhook-rejected": "<red>Saved, but the plugin did not accept it. Check config.yml and the console.</red>",
     "chat.webhook-set": "<green>Webhook set and reloaded - logging to channel {channel}.</green>",
     "chat.webhook-usage": "<yellow>Usage: <white>/discordlogger webhook <url></white></yellow>",
-    "chat.webhook-where": "<gray>Create one in Discord under Channel Settings > Integrations > Webhooks.</gray>",
+    "chat.webhook-where": "<gray>Create one in Discord or Fluxer, then paste the URL here.</gray>",
     "chat.webhook-write-failed": "<red>Could not write webhook.url to config.yml. Check the file exists and is writable.</red>"
   }
 }
